@@ -42,5 +42,17 @@
         ```
       - ![image](https://github.com/brian09088/Grafana/assets/72643996/9cffa935-2f68-4374-b73f-4ca61e9919e3)
       - query language 由於版本關係，選擇flux而不是influxQL -> save & test
+      - 試著連接telegraf去察看資源使用情形:
+        - 安裝telegraf: https://github.com/influxdata/telegraf/releases
+        - 至C:\Program Files 新建Telegraf 去把解壓縮之後的檔案複製過來
+        - 在該根目錄下執行指令安裝服務
+        ```
+        telegraf.exe -service install
+        ```
+        - 去服務 -> Telegraf Data Collector Service -> 右鍵啟動服務
+        - <另解>輸入指令啟動服務:
+        ```
+        net start telegraf
+        ```
     - loki
     - SQL
