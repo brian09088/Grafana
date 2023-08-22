@@ -54,5 +54,8 @@
         ```
         net start telegraf
         ```
+        - 目前卡關原因: 預設influxDB telegraf -> create configuration會跑出預設bucket並且可以選取system 來做系統監控(附圖為實際與比較差異)
+        - ![image](https://github.com/brian09088/Grafana/assets/72643996/db29c756-c596-46f9-bf55-bc89467b44f7)
+        - ![image](https://github.com/brian09088/Grafana/assets/72643996/1dc70676-a1ea-42ea-82bc-5a1b1fab2bd0)
     - loki
     - SQL
