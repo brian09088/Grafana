@@ -58,7 +58,7 @@
         - ![image](https://github.com/brian09088/Grafana/assets/72643996/db29c756-c596-46f9-bf55-bc89467b44f7)
         - ![image](https://github.com/brian09088/Grafana/assets/72643996/1dc70676-a1ea-42ea-82bc-5a1b1fab2bd0)
     - loki
-      - 將他移動到C://Programs之後 打開系統管理員執行cmd:
+      - 將他移動到C://Program files之後 打開系統管理員執行cmd:
       ```
       .\nssm.exe install loki
       ```
