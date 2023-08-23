@@ -58,4 +58,10 @@
         - ![image](https://github.com/brian09088/Grafana/assets/72643996/db29c756-c596-46f9-bf55-bc89467b44f7)
         - ![image](https://github.com/brian09088/Grafana/assets/72643996/1dc70676-a1ea-42ea-82bc-5a1b1fab2bd0)
     - loki
+      - 將他移動到C://Programs之後 打開系統管理員執行cmd:
+      ```
+      .\nssm.exe install loki
+      ```
+      - ![image](https://github.com/brian09088/Grafana/assets/72643996/f57266e6-4703-4fbd-9b30-0269fbb20724)
+      - 發現啟動服務異常，目前懸而未解 ![image](https://github.com/brian09088/Grafana/assets/72643996/e18cf7d9-aa85-4fdf-8ee0-709f4a58867b)
     - SQL
