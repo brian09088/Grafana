@@ -11,7 +11,7 @@
       - kubernetes cluster (prometheus)
       - 前往官網開源的模板下載 [grafana dashboards](https://grafana.com/grafana/dashboards/?pg=hp&plcmt=lt-box-dashboards)
       - ![image](https://github.com/brian09088/Grafana/assets/72643996/160f3fb7-58ca-4310-893c-ffca958734d7)
-      - ![image](https://github.com/brian09088/Grafana/assets/72643996/d93dfa31-e8bb-4160-ac0a-aa2718c5b0ac)
+      - ![image](https://github.com/brian09088/Grafana/assets/72643996/e069fdf5-fce8-4a4d-babc-1c90a89f3a86)
       - ![image](https://github.com/brian09088/Grafana/assets/72643996/dbf4acd5-0287-4433-acb3-951a0af22e06)
       - 根據官網模板提供的id與json檔案來創建
   - 常見data source:
