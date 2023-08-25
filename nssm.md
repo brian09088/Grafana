@@ -1,4 +1,4 @@
-# 用來安裝服務:
+# nssm 用來安裝服務:
 - 移動到nssm目錄下啟動cmd(![image](https://github.com/brian09088/Grafana/assets/72643996/540c3707-90ea-4eb5-afc7-c686d28b8243)
 ```
 nssm install loki
@@ -17,3 +17,8 @@ nssm install loki
   - ![image](https://github.com/brian09088/Grafana/assets/72643996/5bc6b8e2-9887-4d1c-81d9-82e590efb37a)
 
 - promtail(同上安裝程序，非必要套件)
+- 目前已知問題:
+  - 先啟動promtail再啟動loki，都成功啟動但是依然無法連接(localhost:3010 顯示404page not found，grafana則是Data source connected, but no labels received. Verify that Loki and Promtail is configured properly.)
+  - ![image](/uploads/9cb5c70c888e0fb9d849abbf5fb2f817/image.png)
+  - 先啟動loki再啟動promtail，出現錯誤
+  - ![image](/uploads/53cd28e332bdf2cfbceb42a1b70e7ffe/image.png)
